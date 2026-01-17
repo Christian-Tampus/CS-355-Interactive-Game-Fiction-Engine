@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1741124697 source:c:\users\csis\desktop\project#4\area.cpp
+	<iostream>
+	"Area.h"
+
+1741124698 c:\users\csis\desktop\project#4\area.h
+	"ull.h"
+	"Item.h"
+	<string>
+	<iostream>
+
+1741124699 c:\users\csis\desktop\project#4\ull.h
+	<iostream>
+	<cassert>
+
+1741131935 c:\users\csis\desktop\project#4\item.h
+	<string>
+	<iostream>
+	<vector>
+	"structs.h"
+
+1741124699 c:\users\csis\desktop\project#4\structs.h
+
+1741124698 source:c:\users\csis\desktop\project#4\basicplayer.cpp
+	"BasicPlayer.h"
+
+1741124698 c:\users\csis\desktop\project#4\basicplayer.h
+	"Player.h"
+
+1741124698 c:\users\csis\desktop\project#4\player.h
+	"areaNode.h"
+	"ull.h"
+	"Item.h"
+	"Map.h"
+
+1741124698 c:\users\csis\desktop\project#4\areanode.h
+	"Area.h"
+
+1741124698 c:\users\csis\desktop\project#4\map.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+	"areaNode.h"
+	"IFDParser.h"
+	"LinkData.h"
+	"Area.h"
+
+1741124698 c:\users\csis\desktop\project#4\ifdparser.h
+	<vector>
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<stdlib.h>
+
+1741124698 c:\users\csis\desktop\project#4\linkdata.h
+	<iostream>
+
+1741131962 source:c:\users\csis\desktop\project#4\consumeitem.cpp
+	"ConsumeItem.h"
+
+1741131297 c:\users\csis\desktop\project#4\consumeitem.h
+	"Item.h"
+
+1741124698 source:c:\users\csis\desktop\project#4\game.cpp
+	<iostream>
+	"Game.h"
+
+1741124698 c:\users\csis\desktop\project#4\game.h
+	"MapV2.h"
+	"Player.h"
+	"BasicPlayer.h"
+	"HPSPPlayer.h"
+
+1741124698 c:\users\csis\desktop\project#4\mapv2.h
+	"Map.h"
+	<iostream>
+
+1741124698 c:\users\csis\desktop\project#4\hpspplayer.h
+	"Player.h"
+
+1741133488 source:c:\users\csis\desktop\project#4\hpspplayer.cpp
+	"HPSPPlayer.h"
+
+1741124698 source:c:\users\csis\desktop\project#4\ifdparser.cpp
+	<iostream>
+	"IFDParser.h"
+
+1741131857 source:c:\users\csis\desktop\project#4\item.cpp
+	"Item.h"
+	<iostream>
+
+1741124698 source:c:\users\csis\desktop\project#4\linkdata.cpp
+	<iostream>
+	"LinkData.h"
+
+1741124698 source:c:\users\csis\desktop\project#4\main.cpp
+	"Game.h"
+
+1741124698 source:c:\users\csis\desktop\project#4\map.cpp
+	<iostream>
+	"Map.h"
+
+1741130009 source:c:\users\csis\desktop\project#4\mapv2.cpp
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	"MapV2.h"
+	"Item.h"
+	"ConsumeItem.h"
+	"UseItem.h"
+
+1741124699 c:\users\csis\desktop\project#4\useitem.h
+	"Item.h"
+
+1741130865 source:c:\users\csis\desktop\project#4\player.cpp
+	<iostream>
+	<string>
+	"ull.h"
+	"Player.h"
+
+1741124699 source:c:\users\csis\desktop\project#4\useitem.cpp
+	"UseItem.h"
+

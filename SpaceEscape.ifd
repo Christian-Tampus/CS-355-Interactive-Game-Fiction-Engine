@@ -1,0 +1,130 @@
+%Interactive Fiction Document Format v2: by Daniel A. Ray
+
+%this is a comment, any line that begins with % is ignored, comments must be on their own line
+% <areas>...</areas>, is the area definition block
+% <links>...</links>, define which areas (listed in same order) links to which other areas  
+% each room link is listed in room order u,d,l,r
+% <items>...</items>, is the item definition block
+% Additional Notes: the player begins in area #1
+
+
+% IMPORTANT NOTE: Comma Separated Lists are not allowed to contain spaces (x,x,x NOT x, x, x)
+
+% ADDITONAL NOTE: This  
+
+
+<game>
+
+% Area1
+<area>
+	<desc>You wake up.  The explosion was deafening and you seem to be on emergency power.  Got to find an escape pod.  Time to move.  Type u, d, l, or r to exit up, down, left, or right.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area2
+<area>
+	<desc>Transporter Room.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area3
+<area>
+	<desc>Armory.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area4
+<area>
+	<desc>Bridge.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area5
+<area>
+	<desc>Lounge.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area6
+<area>
+	<desc>Sick Bay.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area7
+<area>
+	<desc>Crew Quarters 1.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area8
+<area>
+	<desc>Crew Quarters 2.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area9
+<area>
+	<desc>Crew Quarters 3.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area10
+<area>
+	<desc>Hull Breach!  You are sucked into the vaccum of space and die.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area11
+<area>
+	<desc>Cargo Bay.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area12
+<area>
+	<desc>Hull Breach!  You are sucked into the vaccum of space and die.</desc>
+	<feats>1,0</feats>
+</area>
+
+% Area13
+<area>
+	<desc>Corridor 1.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area14
+<area>
+	<desc>Corridor 2.</desc>
+	<feats>0,0</feats>
+</area>
+
+% Area15
+<area>
+	<desc>Escape Pod.  Well done!  You lived! (conserve your oxygen)</desc>
+	<feats>0,1</feats>
+</area>
+
+<links>
+	<linkset>2,6,8,4</linkset>
+	<linkset>11,1,9,3</linkset>
+	<linkset>3,4,2,10</linkset>
+	<linkset>3,5,1,4</linkset>
+	<linkset>4,13,6,11</linkset>
+	<linkset>1,12,7,5</linkset>
+	<linkset>8,7,7,6</linkset>
+	<linkset>9,7,9,1</linkset>
+	<linkset>9,8,8,2</linkset>
+	<linkset>10,10,10,10</linkset>
+	<linkset>10,13,5,2</linkset>
+	<linkset>12,12,12,12</linkset>
+	<linkset>5,14,13,11</linkset>
+	<linkset>13,15,14,14</linkset>
+	<linkset>15,15,15,15</linkset>
+</links>      
+
+</game>
+
+
+
+

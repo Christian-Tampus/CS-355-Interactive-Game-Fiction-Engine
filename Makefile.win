@@ -1,0 +1,76 @@
+# Project: Project1
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Area.o Game.o IFDParser.o LinkData.o main.o Map.o Player.o Item.o MapV2.o BasicPlayer.o HPSPPlayer.o ConsumeItem.o UseItem.o WeaponItem.o ArmorItem.o CombatPlayer.o Enemy.o
+LINKOBJ  = Area.o Game.o IFDParser.o LinkData.o main.o Map.o Player.o Item.o MapV2.o BasicPlayer.o HPSPPlayer.o ConsumeItem.o UseItem.o WeaponItem.o ArmorItem.o CombatPlayer.o Enemy.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = Project1.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\DevCpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Area.o: Area.cpp
+	$(CPP) -c Area.cpp -o Area.o $(CXXFLAGS)
+
+Game.o: Game.cpp
+	$(CPP) -c Game.cpp -o Game.o $(CXXFLAGS)
+
+IFDParser.o: IFDParser.cpp
+	$(CPP) -c IFDParser.cpp -o IFDParser.o $(CXXFLAGS)
+
+LinkData.o: LinkData.cpp
+	$(CPP) -c LinkData.cpp -o LinkData.o $(CXXFLAGS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Map.o: Map.cpp
+	$(CPP) -c Map.cpp -o Map.o $(CXXFLAGS)
+
+Player.o: Player.cpp
+	$(CPP) -c Player.cpp -o Player.o $(CXXFLAGS)
+
+Item.o: Item.cpp
+	$(CPP) -c Item.cpp -o Item.o $(CXXFLAGS)
+
+MapV2.o: MapV2.cpp
+	$(CPP) -c MapV2.cpp -o MapV2.o $(CXXFLAGS)
+
+BasicPlayer.o: BasicPlayer.cpp
+	$(CPP) -c BasicPlayer.cpp -o BasicPlayer.o $(CXXFLAGS)
+
+HPSPPlayer.o: HPSPPlayer.cpp
+	$(CPP) -c HPSPPlayer.cpp -o HPSPPlayer.o $(CXXFLAGS)
+
+ConsumeItem.o: ConsumeItem.cpp
+	$(CPP) -c ConsumeItem.cpp -o ConsumeItem.o $(CXXFLAGS)
+
+UseItem.o: UseItem.cpp
+	$(CPP) -c UseItem.cpp -o UseItem.o $(CXXFLAGS)
+
+WeaponItem.o: WeaponItem.cpp
+	$(CPP) -c WeaponItem.cpp -o WeaponItem.o $(CXXFLAGS)
+
+ArmorItem.o: ArmorItem.cpp
+	$(CPP) -c ArmorItem.cpp -o ArmorItem.o $(CXXFLAGS)
+
+CombatPlayer.o: CombatPlayer.cpp
+	$(CPP) -c CombatPlayer.cpp -o CombatPlayer.o $(CXXFLAGS)
+
+Enemy.o: Enemy.cpp
+	$(CPP) -c Enemy.cpp -o Enemy.o $(CXXFLAGS)

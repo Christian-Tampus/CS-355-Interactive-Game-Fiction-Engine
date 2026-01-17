@@ -1,0 +1,2106 @@
+% --------------------------------------------------
+% OhioRing.ifd Developed By: Christian Tampus
+% --------------------------------------------------
+<game>
+	% --------------------------------------------------
+	% Player Type: Combat
+	% --------------------------------------------------
+	<ptype>combat</ptype>
+	% --------------------------------------------------
+	% Messages [Basic Items]
+	% --------------------------------------------------
+	<item>
+		<basic>
+			<name>Message 1</name>
+			<desc>"Dog"</desc>
+			<star>1</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 2</name>
+			<desc>"Try Two-Handing"</desc>
+			<star>3</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 3</name>
+			<desc>"Seek God"</desc>
+			<star>4</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 4</name>
+			<desc>"Try Armor"</desc>
+			<star>5</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 5</name>
+			<desc>"Why Is It Always Mushrooms?"</desc>
+			<star>6</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 6</name>
+			<desc>"Why Is It Always Sorcery?"</desc>
+			<star>7</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 7</name>
+			<desc>"Ah, Clear Skies"</desc>
+			<star>8</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 8</name>
+			<desc>"If Only I Had A Giant... But Hole!"</desc>
+			<star>9</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 9</name>
+			<desc>"Praise The Sun!"</desc>
+			<star>10</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 10</name>
+			<desc>"Look Up!"</desc>
+			<star>11</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 11</name>
+			<desc>"Be Wary Of The Hole, But Be Wary Of Taking On All At Once!"</desc>
+			<star>12</star>
+		</basic>
+	</item>
+	<item>
+		<basic>
+			<name>Message 12</name>
+			<desc>"Run!"</desc>
+			<star>13</star>
+		</basic>
+	</item>
+	% --------------------------------------------------
+	% Area 1: Limgrave
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Holy Sword Excalibur</name>
+			<desc>[THIS IS A CHEAT/TEST WEAPON!] Holy Sword Excalibur Description!</desc>
+			<star>1</star>
+			<damage>999</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Holy Sword Excalibur</attackmess>
+			<stamina>1</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Holy Divine Platemail</name>
+			<desc>[THIS IS A CHEAT/TEST ARMOR!] Holy Divine Platemail Description!</desc>
+			<star>1</star>
+			<durability>9999</durability>
+			<absorption>99</absorption>
+			<breakmess>Holy Divine Platemail Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<weapon>
+			<name>Iron Longsword</name>
+			<desc>Iron Longsword Description!</desc>
+			<star>1</star>
+			<damage>10</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Iron Longsword</attackmess>
+			<stamina>1</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Lordsworn's Sword</name>
+			<desc>Lordsworn's Sword Description!</desc>
+			<star>-1</star>
+			<damage>15</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Lordsworn's Sword</attackmess>
+			<stamina>2</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Peasant Garb</name>
+			<desc>Peasant Garb Description!</desc>
+			<star>1</star>
+			<durability>20</durability>
+			<absorption>10</absorption>
+			<breakmess>Peasant Garb Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Godrick Soldier Armor</name>
+			<desc>Godrick Soldier Armor Description!</desc>
+			<star>-1</star>
+			<durability>40</durability>
+			<absorption>15</absorption>
+			<breakmess>Godrick Soldier Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 1</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>1</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 1</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>1</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 2</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 2</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Tree Sentinel</name>
+		<desc>Tree Sentinel Description!</desc>
+		<star>1</star>
+		<health>150</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>10</attack>
+		<attackmess>Tree Sentinel Attacked You!</attackmess>
+		<deathmess>Tree Sentinel Died!</deathmess>
+		<drop>Tree Sentinel's Great Rune</drop>
+	</enemy>
+	<enemy>
+		<name>Godrick Soldier 1</name>
+		<desc>Godrick Soldier Description!</desc>
+		<star>1</star>
+		<health>50</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>5</attack>
+		<attackmess>Godrick Soldier Attacked You!</attackmess>
+		<deathmess>Godrick Soldier Died!</deathmess>
+		<drop>Lordsworn's Sword</drop>
+	</enemy>
+	<enemy>
+		<name>Godrick Soldier 2</name>
+		<desc>Godrick Soldier Description!</desc>
+		<star>1</star>
+		<health>50</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>5</attack>
+		<attackmess>Godrick Soldier Attacked You!</attackmess>
+		<deathmess>Godrick Soldier Died!</deathmess>
+		<drop>Godrick Soldier Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Godrick Soldier 3</name>
+		<desc>Godrick Soldier Description!</desc>
+		<star>1</star>
+		<health>50</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>5</attack>
+		<attackmess>Godrick Soldier Attacked You!</attackmess>
+		<deathmess>Godrick Soldier Died!</deathmess>
+		<drop>Small Health Potion 2</drop>
+		<drop>Small Stamina Potion 2</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 3: Weeping Peninsula
+	% --------------------------------------------------
+	<item>
+		<consume>
+			<name>Flask Of Wondrous Health</name>
+			<desc>Increases Your Health Massively</desc>
+			<star>-1</star>
+			<actmess>You Gained +250 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,250</effect>
+			<quantity>1</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Flask Of Wondrous Stamina</name>
+			<desc>Increases Your Stamina Massively</desc>
+			<star>-1</star>
+			<actmess>You Gained +250 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,250</effect>
+			<quantity>1</quantity>
+		</consume>
+	</item>
+	<item>
+		<weapon>
+			<name>Claymore</name>
+			<desc>Claymore Description!</desc>
+			<star>3</star>
+			<damage>17</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Claymore</attackmess>
+			<stamina>3</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Staff Of Poison</name>
+			<desc>Staff Of Poison Description!</desc>
+			<star>-1</star>
+			<damage>21</damage>
+			<affinity>Poison</affinity>
+			<attackmess>Attacked The Enemy With: Staff Of Poison</attackmess>
+			<stamina>4</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Bandit Armor</name>
+			<desc>Bandit Armor Description!</desc>
+			<star>3</star>
+			<durability>60</durability>
+			<absorption>15</absorption>
+			<breakmess>Bandit Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Mail Armor</name>
+			<desc>Mail Armor Description!</desc>
+			<star>-1</star>
+			<durability>80</durability>
+			<absorption>20</absorption>
+			<breakmess>Mail Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 3</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>3</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 3</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>3</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 4</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 4</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Erdtree Avatar</name>
+		<desc>Erdtree Avatar Description!</desc>
+		<star>3</star>
+		<health>250</health>
+		<resistance>0,50,0,-50</resistance>
+		<attack>10</attack>
+		<attackmess>Erdtree Avatar Attacked You!</attackmess>
+		<deathmess>Erdtree Avatar Died!</deathmess>
+		<drop>Flask Of Wondrous Health</drop>
+		<drop>Flask Of Wondrous Stamina</drop>
+	</enemy>
+	<enemy>
+		<name>Misbegotten 1</name>
+		<desc>Misbegotten Description!</desc>
+		<star>3</star>
+		<health>70</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>7</attack>
+		<attackmess>Misbegotten Attacked You!</attackmess>
+		<deathmess>Misbegotten Died!</deathmess>
+		<drop>Staff Of Poison</drop>
+	</enemy>
+	<enemy>
+		<name>Misbegotten 2</name>
+		<desc>Misbegotten Description!</desc>
+		<star>3</star>
+		<health>70</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>7</attack>
+		<attackmess>Misbegotten Attacked You!</attackmess>
+		<deathmess>Misbegotten Died!</deathmess>
+		<drop>Mail Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Misbegotten 3</name>
+		<desc>Misbegotten Description!</desc>
+		<star>3</star>
+		<health>70</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>7</attack>
+		<attackmess>Misbegotten Attacked You!</attackmess>
+		<deathmess>Misbegotten Died!</deathmess>
+		<drop>Small Health Potion 4</drop>
+		<drop>Small Stamina Potion 4</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 4: Caelid Ohio
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Lion Greatbow</name>
+			<desc>Lion Greatbow Description!</desc>
+			<star>-1</star>
+			<damage>81</damage>
+			<affinity>Fire</affinity>
+			<attackmess>Attacked The Enemy With: Lion Greatbow</attackmess>
+			<stamina>18</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Greatsword</name>
+			<desc>Greatsword Description!</desc>
+			<star>4</star>
+			<damage>23</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Greatsword</attackmess>
+			<stamina>5</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Flamewand</name>
+			<desc>Flamewand Description!</desc>
+			<star>-1</star>
+			<damage>27</damage>
+			<affinity>Fire</affinity>
+			<attackmess>Attacked The Enemy With: Flamewand</attackmess>
+			<stamina>6</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Knight Armor</name>
+			<desc>Knight Armor Description!</desc>
+			<star>4</star>
+			<durability>90</durability>
+			<absorption>20</absorption>
+			<breakmess>Knight Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Radahn Soldier Armor</name>
+			<desc>Radahn Soldier Armor Description!</desc>
+			<star>-1</star>
+			<durability>120</durability>
+			<absorption>25</absorption>
+			<breakmess>Radahn Soldier Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 5</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>4</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 5</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>4</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 6</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 6</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Starscourge Radahn</name>
+		<desc>Starscourge Radahn Description!</desc>
+		<star>4</star>
+		<health>400</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>15</attack>
+		<attackmess>Starscourge Radahn Attacked You!</attackmess>
+		<deathmess>Starscourge Radahn Died!</deathmess>
+		<drop>Lion Greatbow</drop>
+	</enemy>
+	<enemy>
+		<name>Radahn Soldier 1</name>
+		<desc>Radahn Soldier Description!</desc>
+		<star>4</star>
+		<health>100</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>10</attack>
+		<attackmess>Radahn Soldier Attacked You!</attackmess>
+		<deathmess>Radahn Soldier Died!</deathmess>
+		<drop>Flamewand</drop>
+	</enemy>
+	<enemy>
+		<name>Radahn Soldier 2</name>
+		<desc>Radahn Soldier Description!</desc>
+		<star>4</star>
+		<health>100</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>10</attack>
+		<attackmess>Radahn Soldier Attacked You!</attackmess>
+		<deathmess>Radahn Soldier Died!</deathmess>
+		<drop>Radahn Soldier Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Radahn Soldier 3</name>
+		<desc>Radahn Soldier Description!</desc>
+		<star>4</star>
+		<health>100</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>10</attack>
+		<attackmess>Radahn Soldier Attacked You!</attackmess>
+		<deathmess>Radahn Soldier Died!</deathmess>
+		<drop>Small Health Potion 6</drop>
+		<drop>Small Stamina Potion 6</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 5: Stormviel Castle
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Erdsteel Dagger</name>
+			<desc>Erdsteel Dagger Description!</desc>
+			<star>5</star>
+			<damage>34</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Erdsteel Dagger</attackmess>
+			<stamina>7</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Uchigatana</name>
+			<desc>Uchigatana Description!</desc>
+			<star>-1</star>
+			<damage>40</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Uchigatana</attackmess>
+			<stamina>8</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Sentinel's Coat</name>
+			<desc>Sentinel's Coat Description!</desc>
+			<star>5</star>
+			<durability>135</durability>
+			<absorption>25</absorption>
+			<breakmess>Sentinel's Coat Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Crucible Armor</name>
+			<desc>Crucible Armor Description!</desc>
+			<star>-1</star>
+			<durability>170</durability>
+			<absorption>30</absorption>
+			<breakmess>Crucible Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 7</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>5</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 7</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>5</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Health Potion 8</name>
+			<desc>Increases Your Health Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Small Stamina Potion 8</name>
+			<desc>Increases Your Stamina Slightly</desc>
+			<star>-1</star>
+			<actmess>You Gained +25 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,25</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Godrick The Grafted</name>
+		<desc>Godrick The Grafted Description!</desc>
+		<star>5</star>
+		<health>700</health>
+		<resistance>0,-50,0,50</resistance>
+		<attack>20</attack>
+		<attackmess>Godrick The Grafted Attacked You!</attackmess>
+		<deathmess>Godrick The Grafted Died!</deathmess>
+		<drop>Godrick's Great Rune</drop>
+	</enemy>
+	<enemy>
+		<name>Grafted Scion 1</name>
+		<desc>Grafted Scion Description!</desc>
+		<star>5</star>
+		<health>180</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>15</attack>
+		<attackmess>Grafted Scion Attacked You!</attackmess>
+		<deathmess>Grafted Scion Died!</deathmess>
+		<drop>Uchigatana</drop>
+	</enemy>
+	<enemy>
+		<name>Grafted Scion 2</name>
+		<desc>Grafted Scion Description!</desc>
+		<star>5</star>
+		<health>180</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>15</attack>
+		<attackmess>Grafted Scion Attacked You!</attackmess>
+		<deathmess>Grafted Scion Died!</deathmess>
+		<drop>Crucible Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Grafted Scion 3</name>
+		<desc>Grafted Scion Description!</desc>
+		<star>5</star>
+		<health>180</health>
+		<resistance>50,-50,0,0</resistance>
+		<attack>15</attack>
+		<attackmess>Grafted Scion Attacked You!</attackmess>
+		<deathmess>Grafted Scion Died!</deathmess>
+		<drop>Small Health Potion 8</drop>
+		<drop>Small Stamina Potion 8</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 6: Liurnia Of The Lakes
+	% --------------------------------------------------
+	<item>
+		<armor>
+			<name>Glintstone Robe</name>
+			<desc>Glintstone Robe Description!</desc>
+			<star>-1</star>
+			<durability>480</durability>
+			<absorption>40</absorption>
+			<breakmess>Glintstone Robe Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<weapon>
+			<name>Frostwand</name>
+			<desc>Frostwand Description!</desc>
+			<star>6</star>
+			<damage>43</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Frostwand</attackmess>
+			<stamina>9</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Moonrithyll Greatsword</name>
+			<desc>Moonrithyll Greatsword Description!</desc>
+			<star>-1</star>
+			<damage>50</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Moonrithyll Greatsword</attackmess>
+			<stamina>10</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Magician's Cloak</name>
+			<desc>Magician's Cloak Description!</desc>
+			<star>6</star>
+			<durability>180</durability>
+			<absorption>30</absorption>
+			<breakmess>Magician's Cloak Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Paladin's Plate</name>
+			<desc>Paladin's Plate Description!</desc>
+			<star>-1</star>
+			<durability>225</durability>
+			<absorption>35</absorption>
+			<breakmess>Paladin's Plate Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 1</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>6</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 1</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>6</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 2</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 2</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Glintstone Dragon Smarag</name>
+		<desc>Glintstone Dragon Smarag Description!</desc>
+		<star>6</star>
+		<health>950</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>30</attack>
+		<attackmess>Glintstone Dragon Smarag Attacked You!</attackmess>
+		<deathmess>Glintstone Dragon Smarag Died!</deathmess>
+		<drop>Glintstone Robe</drop>
+	</enemy>
+	<enemy>
+		<name>Battlemage 1</name>
+		<desc>Battlemage Description!</desc>
+		<star>6</star>
+		<health>235</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>18</attack>
+		<attackmess>Battlemage Attacked You!</attackmess>
+		<deathmess>Battlemage Died!</deathmess>
+		<drop>Moonrithyll Greatsword</drop>
+	</enemy>
+	<enemy>
+		<name>Battlemage 2</name>
+		<desc>Battlemage Description!</desc>
+		<star>6</star>
+		<health>235</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>18</attack>
+		<attackmess>Battlemage Attacked You!</attackmess>
+		<deathmess>Battlemage Died!</deathmess>
+		<drop>Paladin's Plate</drop>
+	</enemy>
+	<enemy>
+		<name>Battlemage 3</name>
+		<desc>Battlemage Description!</desc>
+		<star>6</star>
+		<health>235</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>18</attack>
+		<attackmess>Battlemage Attacked You!</attackmess>
+		<deathmess>Battlemage Died!</deathmess>
+		<drop>Medium Health Potion 2</drop>
+		<drop>Medium Stamina Potion 2</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 7: Raya Lucaria Academy
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Stormhawk Axe</name>
+			<desc>Stormhawk Axe Description!</desc>
+			<star>7</star>
+			<damage>59</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Stormhawk Axe</attackmess>
+			<stamina>11</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Obsidian Lamina</name>
+			<desc>Obsidian Lamina Description!</desc>
+			<star>-1</star>
+			<damage>66</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Obsidian Lamina</attackmess>
+			<stamina>12</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Cuckoo Knight's Armor</name>
+			<desc>Cuckoo Knight's Armor Description!</desc>
+			<star>7</star>
+			<durability>210</durability>
+			<absorption>35</absorption>
+			<breakmess>Cuckoo Knight's Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Elite Magician's Cloak</name>
+			<desc>Elite Magician's Cloak Description!</desc>
+			<star>-1</star>
+			<durability>280</durability>
+			<absorption>40</absorption>
+			<breakmess>Elite Magician's Cloak Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 3</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>7</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 3</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>7</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 4</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 4</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Rennala Queen Of The Full Moon</name>
+		<desc>Rennala Queen Of The Full Moon Description!</desc>
+		<star>7</star>
+		<health>1150</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>36</attack>
+		<attackmess>Rennala Queen Of The Full Moon Attacked You!</attackmess>
+		<deathmess>Rennala Queen Of The Full Moon Died!</deathmess>
+		<drop>Rennala's Great Rune</drop>
+	</enemy>
+	<enemy>
+		<name>Lazuli Sorcerer 1</name>
+		<desc>Lazuli Sorcerer Description!</desc>
+		<star>7</star>
+		<health>275</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>25</attack>
+		<attackmess>Lazuli Sorcerer Attacked You!</attackmess>
+		<deathmess>Lazuli Sorcerer Died!</deathmess>
+		<drop>Obsidian Lamina</drop>
+	</enemy>
+	<enemy>
+		<name>Lazuli Sorcerer 2</name>
+		<desc>Lazuli Sorcerer Description!</desc>
+		<star>7</star>
+		<health>275</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>25</attack>
+		<attackmess>Lazuli Sorcerer Attacked You!</attackmess>
+		<deathmess>Lazuli Sorcerer Died!</deathmess>
+		<drop>Elite Magician's Cloak</drop>
+	</enemy>
+	<enemy>
+		<name>Lazuli Sorcerer 3</name>
+		<desc>Lazuli Sorcerer Description!</desc>
+		<star>7</star>
+		<health>275</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>25</attack>
+		<attackmess>Lazuli Sorcerer Attacked You!</attackmess>
+		<deathmess>Lazuli Sorcerer Died!</deathmess>
+		<drop>Medium Health Potion 4</drop>
+		<drop>Medium Stamina Potion 4</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 8: Mount Gelmir
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Serpent Hunter Spear</name>
+			<desc>Serpent Hunter Spear Description!</desc>
+			<star>-1</star>
+			<damage>250</damage>
+			<affinity>Poison</affinity>
+			<attackmess>Attacked The Enemy With: Serpent Hunter Spear</attackmess>
+			<stamina>42</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Igon's Bow</name>
+			<desc>Igon's Bow Description!</desc>
+			<star>8</star>
+			<damage>70</damage>
+			<affinity>Poison</affinity>
+			<attackmess>Attacked The Enemy With: Igon's Bow</attackmess>
+			<stamina>13</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Black Steel Greathammer</name>
+			<desc>Black Steel Greathammer Description!</desc>
+			<star>-1</star>
+			<damage>82</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Black Steel Greathammer</attackmess>
+			<stamina>14</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Chaos Platemail</name>
+			<desc>Chaos Platemail Description!</desc>
+			<star>8</star>
+			<durability>250</durability>
+			<absorption>40</absorption>
+			<breakmess>Chaos Platemail Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Necromancer's Tunic</name>
+			<desc>Necromancer's Tunic Description!</desc>
+			<star>-1</star>
+			<durability>325</durability>
+			<absorption>45</absorption>
+			<breakmess>Necromancer's Tunic Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 5</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>8</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 5</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>8</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 6</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 6</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Rykard, Lord Of Blasphemy</name>
+		<desc>Rykard, Lord Of Blasphemy Description!</desc>
+		<star>8</star>
+		<health>1470</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>43</attack>
+		<attackmess>Rykard, Lord of Blasphemy Attacked You!</attackmess>
+		<deathmess>Rykard, Lord of Blasphemy Died!</deathmess>
+		<drop>Rykard's Great Rune</drop>
+		<drop>Serpent Hunter Spear</drop>
+	</enemy>
+	<enemy>
+		<name>Marionette Soldier 1</name>
+		<desc>Marionette Soldier Description!</desc>
+		<star>8</star>
+		<health>340</health>
+		<resistance>50,0,-50,0</resistance>
+		<attack>29</attack>
+		<attackmess>Marionette Soldier Attacked You!</attackmess>
+		<deathmess>Marionette Soldier Died!</deathmess>
+		<drop>Black Steel Greathammer</drop>
+	</enemy>
+	<enemy>
+		<name>Marionette Soldier 2</name>
+		<desc>Marionette Soldier Description!</desc>
+		<star>8</star>
+		<health>340</health>
+		<resistance>50,0,-50,0</resistance>
+		<attack>29</attack>
+		<attackmess>Marionette Soldier Attacked You!</attackmess>
+		<deathmess>Marionette Soldier Died!</deathmess>
+		<drop>Necromancer's Tunic</drop>
+	</enemy>
+	<enemy>
+		<name>Marionette Soldier 3</name>
+		<desc>Marionette Soldier Description!</desc>
+		<star>8</star>
+		<health>340</health>
+		<resistance>50,0,-50,0</resistance>
+		<attack>29</attack>
+		<attackmess>Marionette Soldier Attacked You!</attackmess>
+		<deathmess>Marionette Soldier Died!</deathmess>
+		<drop>Medium Health Potion 6</drop>
+		<drop>Medium Stamina Potion 6</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 9: Atlus Plateau
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Spear Of The Impaler</name>
+			<desc>Spear Of The Impaler Description!</desc>
+			<star>9</star>
+			<damage>99</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Spear Of The Impaler</attackmess>
+			<stamina>15</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Gargoyle's Halberd</name>
+			<desc>Gargoyle's Halberd Description!</desc>
+			<star>-1</star>
+			<damage>115</damage>
+			<affinity>Fire</affinity>
+			<attackmess>Attacked The Enemy With: Gargoyle's Halberd</attackmess>
+			<stamina>16</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Vengeance Guard</name>
+			<desc>Vengeance Guard Description!</desc>
+			<star>9</star>
+			<durability>395</durability>
+			<absorption>45</absorption>
+			<breakmess>Vengeance Guard Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Malformed Dragon Armor</name>
+			<desc>Malformed Dragon Armor Description!</desc>
+			<star>-1</star>
+			<durability>470</durability>
+			<absorption>50</absorption>
+			<breakmess>Malformed Dragon Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 7</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>9</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 7</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>9</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Health Potion 8</name>
+			<desc>Increases Your Health Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Medium Stamina Potion 8</name>
+			<desc>Increases Your Stamina Moderately</desc>
+			<star>-1</star>
+			<actmess>You Gained +50 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,50</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Morgott, The Omen King</name>
+		<desc>Morgott, The Omen King Description!</desc>
+		<star>9</star>
+		<health>1830</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>51</attack>
+		<attackmess>Morgott, The Omen King Attacked You!</attackmess>
+		<deathmess>Morgott, The Omen King Died!</deathmess>
+		<drop>Morgott's Great Rune</drop>
+	</enemy>
+	<enemy>
+		<name>Giant Omen 1</name>
+		<desc>Giant Omen Description!</desc>
+		<star>9</star>
+		<health>400</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>35</attack>
+		<attackmess>Giant Omen Attacked You!</attackmess>
+		<deathmess>Giant Omen Died!</deathmess>
+		<drop>Gargoyle's Halberd</drop>
+	</enemy>
+	<enemy>
+		<name>Giant Omen 2</name>
+		<desc>Giant Omen Description!</desc>
+		<star>9</star>
+		<health>400</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>35</attack>
+		<attackmess>Giant Omen Attacked You!</attackmess>
+		<deathmess>Giant Omen Died!</deathmess>
+		<drop>Malformed Dragon Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Giant Omen 3</name>
+		<desc>Giant Omen Description!</desc>
+		<star>9</star>
+		<health>400</health>
+		<resistance>-50,50,0,0</resistance>
+		<attack>35</attack>
+		<attackmess>Giant Omen Attacked You!</attackmess>
+		<deathmess>Giant Omen Died!</deathmess>
+		<drop>Medium Health Potion 8</drop>
+		<drop>Medium Stamina Potion 8</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 10: Mountain Tops Of The Giants
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Bloody Helice</name>
+			<desc>Bloody Helice Description!</desc>
+			<star>10</star>
+			<damage>139</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Bloody Helice</attackmess>
+			<stamina>17</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Dragon King's Cragblade</name>
+			<desc>Dragon King's Cragblade Description!</desc>
+			<star>-1</star>
+			<damage>157</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Dragon King's Cragblade</attackmess>
+			<stamina>18</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Nights Cavalry Tunic</name>
+			<desc>Nights Cavalry Tunic Description!</desc>
+			<star>10</star>
+			<durability>450</durability>
+			<absorption>50</absorption>
+			<breakmess>Nights Cavalry Tunic Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Dragonskull Platemail</name>
+			<desc>Dragonskull Platemail Description!</desc>
+			<star>-1</star>
+			<durability>585</durability>
+			<absorption>55</absorption>
+			<breakmess>Dragonskull Platemail Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 1</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>10</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 1</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>10</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 2</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 2</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Fire Giant</name>
+		<desc>Fire Giant Description!</desc>
+		<star>10</star>
+		<health>2150</health>
+		<resistance>0,0,-50,50</resistance>
+		<attack>60</attack>
+		<attackmess>Fire Giant Attacked You!</attackmess>
+		<deathmess>Fire Giant Died!</deathmess>
+		<drop>Fire Giant's Great Rune</drop>
+	</enemy>
+	<enemy>
+		<name>Snow Runebear 1</name>
+		<desc>Snow Runebear Description!</desc>
+		<star>10</star>
+		<health>475</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>40</attack>
+		<attackmess>Snow Runebear Attacked You!</attackmess>
+		<deathmess>Snow Runebear Died!</deathmess>
+		<drop>Dragon King's Cragblade</drop>
+	</enemy>
+	<enemy>
+		<name>Snow Runebear 2</name>
+		<desc>Snow Runebear Description!</desc>
+		<star>10</star>
+		<health>475</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>40</attack>
+		<attackmess>Snow Runebear Attacked You!</attackmess>
+		<deathmess>Snow Runebear Died!</deathmess>
+		<drop>Dragonskull Platemail</drop>
+	</enemy>
+	<enemy>
+		<name>Snow Runebear 3</name>
+		<desc>Snow Runebear Description!</desc>
+		<star>10</star>
+		<health>475</health>
+		<resistance>0,0,50,-50</resistance>
+		<attack>40</attack>
+		<attackmess>Snow Runebear Attacked You!</attackmess>
+		<deathmess>Snow Runebear Died!</deathmess>
+		<drop>Large Health Potion 2</drop>
+		<drop>Large Stamina Potion 2</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 11: The Haligtree
+	% --------------------------------------------------
+	<item>
+		<consume>
+			<name>Flask Of Wondrous Physick</name>
+			<desc>Increases Your Stats Enourmously</desc>
+			<star>-1</star>
+			<actmess>You Gained +500 Stats Points</actmess>
+			<actar>0</actar>
+			<effect>13,500</effect>
+			<effect>11,500</effect>
+			<quantity>1</quantity>
+		</consume>
+	</item>
+	<item>
+		<weapon>
+			<name>Hand Of Malenia</name>
+			<desc>Hand Of Malenia Description!</desc>
+			<star>-1</star>
+			<damage>685</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Hand Of Malenia</attackmess>
+			<stamina>60</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Primordial Deathsuit</name>
+			<desc>Primordial Deathsuit Description!</desc>
+			<star>-1</star>
+			<durability>2160</durability>
+			<absorption>65</absorption>
+			<breakmess>Primordial Deathsuit Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<weapon>
+			<name>Blasphemous Blade</name>
+			<desc>Blasphemous Blade Description!</desc>
+			<star>11</star>
+			<damage>183</damage>
+			<affinity>Poison</affinity>
+			<attackmess>Attacked The Enemy With: Blasphemous Blade</attackmess>
+			<stamina>19</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Erdtree Bow</name>
+			<desc>Erdtree Bow Description!</desc>
+			<star>-1</star>
+			<damage>227</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Erdtree Bow</attackmess>
+			<stamina>20</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Royal Knight Armor</name>
+			<desc>Royal Knight Armor Description!</desc>
+			<star>11</star>
+			<durability>600</durability>
+			<absorption>55</absorption>
+			<breakmess>Royal Knight Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Titan's Guard</name>
+			<desc>Titan's Guard Description!</desc>
+			<star>-1</star>
+			<durability>720</durability>
+			<absorption>60</absorption>
+			<breakmess>Titan's Guard Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 3</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>11</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 3</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>11</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 4</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 4</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Malenia, Blade Of Miquella</name>
+		<desc>Malenia, Blade Of Miquella Description!</desc>
+		<star>11</star>
+		<health>2500</health>
+		<resistance>-50,0,0,50</resistance>
+		<attack>69</attack>
+		<attackmess>Malenia, Blade Of Miquella Attacked You!</attackmess>
+		<deathmess>Malenia, Blade Of Miquella Died!</deathmess>
+		<drop>Flask Of Wondrous Physick</drop>
+		<drop>Hand Of Malenia</drop>
+		<drop>Primordial Deathsuit</drop>
+	</enemy>
+	<enemy>
+		<name>Albinauric Archer 1</name>
+		<desc>Albinauric Archer Description!</desc>
+		<star>11</star>
+		<health>535</health>
+		<resistance>0,-50,50,0</resistance>
+		<attack>47</attack>
+		<attackmess>Albinauric Archer Attacked You!</attackmess>
+		<deathmess>Albinauric Archer Died!</deathmess>
+		<drop>Erdtree Bow</drop>
+	</enemy>
+	<enemy>
+		<name>Albinauric Archer 2</name>
+		<desc>Albinauric Archer Description!</desc>
+		<star>11</star>
+		<health>535</health>
+		<resistance>0,-50,50,0</resistance>
+		<attack>47</attack>
+		<attackmess>Albinauric Archer Attacked You!</attackmess>
+		<deathmess>Albinauric Archer Died!</deathmess>
+		<drop>Titan's Guard</drop>
+	</enemy>
+	<enemy>
+		<name>Albinauric Archer 3</name>
+		<desc>Albinauric Archer Description!</desc>
+		<star>11</star>
+		<health>535</health>
+		<resistance>0,-50,50,0</resistance>
+		<attack>47</attack>
+		<attackmess>Albinauric Archer Attacked You!</attackmess>
+		<deathmess>Albinauric Archer Died!</deathmess>
+		<drop>Large Health Potion 4</drop>
+		<drop>Large Stamina Potion 4</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 12: Leyndell Royal Capital
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Godfrey's Legendary Giant Axe</name>
+			<desc>Godfrey's Legendary Giant Axe Description!</desc>
+			<star>-1</star>
+			<damage>900</damage>
+			<affinity>Bleed</affinity>
+			<attackmess>Attacked The Enemy With: Godrey's Legendary Giantaxe</attackmess>
+			<stamina>63</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Godfrey's Legendary Battle Armor</name>
+			<desc>Godfrey's Legendary Battle Armor Description!</desc>
+			<star>-1</star>
+			<durability>2940</durability>
+			<absorption>70</absorption>
+			<breakmess>Godfrey's Legendary Battle Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<weapon>
+			<name>Godslayer's Greatsword</name>
+			<desc>Godslayer's Greatsword Description!</desc>
+			<star>12</star>
+			<damage>265</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Godslayer's Greatsword</attackmess>
+			<stamina>21</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Divinity Longsword</name>
+			<desc>Divinity Longsword Description!</desc>
+			<star>-1</star>
+			<damage>300</damage>
+			<affinity>Fire</affinity>
+			<attackmess>Attacked The Enemy With: Divinity Longsword</attackmess>
+			<stamina>22</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Imperial Guard</name>
+			<desc>Imperial Guard Description!</desc>
+			<star>12</star>
+			<durability>850</durability>
+			<absorption>60</absorption>
+			<breakmess>Imperial Guard Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Tree Sentinel's Armor</name>
+			<desc>Tree Sentinel's Armor Description!</desc>
+			<star>-1</star>
+			<durability>980</durability>
+			<absorption>65</absorption>
+			<breakmess>Tree Sentinel's Armor Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 5</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>12</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 5</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>12</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 6</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 6</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Godfrey, The First Elden Lord</name>
+		<desc>Godfrey, The First Elden Lord Description!</desc>
+		<star>12</star>
+		<health>5000</health>
+		<resistance>50,50,50,50</resistance>
+		<attack>100</attack>
+		<attackmess>Godfrey, The First Elden Lord Attacked You!</attackmess>
+		<deathmess>Godfrey, The First Elden Lord Died!</deathmess>
+		<drop>Godfrey's Great Rune</drop>
+		<drop>Godfrey's Legendary Giant Axe</drop>
+		<drop>Godfrey's Legendary Battle Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Leyndell Royal Knight 1</name>
+		<desc>Leyndell Royal Knight Description!</desc>
+		<star>12</star>
+		<health>1070</health>
+		<resistance>50,50,50,50</resistance>
+		<attack>70</attack>
+		<attackmess>Leyndell Royal Knight Attacked You!</attackmess>
+		<deathmess>Leyndell Royal Knight Died!</deathmess>
+		<drop>Divinity Longsword</drop>
+	</enemy>
+	<enemy>
+		<name>Leyndell Royal Knight 2</name>
+		<desc>Leyndell Royal Knight Description!</desc>
+		<star>12</star>
+		<health>1070</health>
+		<resistance>50,50,50,50</resistance>
+		<attack>70</attack>
+		<attackmess>Leyndell Royal Knight Attacked You!</attackmess>
+		<deathmess>Leyndell Royal Knight Died!</deathmess>
+		<drop>Tree Sentinel's Armor</drop>
+	</enemy>
+	<enemy>
+		<name>Leyndell Royal Knight 3</name>
+		<desc>Leyndell Royal Knight Description!</desc>
+		<star>12</star>
+		<health>1070</health>
+		<resistance>50,50,50,50</resistance>
+		<attack>70</attack>
+		<attackmess>Leyndell Royal Knight Attacked You!</attackmess>
+		<deathmess>Leyndell Royal Knight Died!</deathmess>
+		<drop>Large Health Potion 6</drop>
+		<drop>Large Stamina Potion 6</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 13: The Holy Divine Erd Tree
+	% --------------------------------------------------
+	<item>
+		<weapon>
+			<name>Golden Order Eclipse</name>
+			<desc>Golden Order Eclipse Description!</desc>
+			<star>13</star>
+			<damage>360</damage>
+			<affinity>Frost</affinity>
+			<attackmess>Attacked The Enemy With: Golden Order Eclipse</attackmess>
+			<stamina>23</stamina>
+		</weapon>
+	</item>
+	<item>
+		<weapon>
+			<name>Sword Of Night And Flame</name>
+			<desc>Sword Of Night And Flame Description!</desc>
+			<star>-1</star>
+			<damage>420</damage>
+			<affinity>Fire</affinity>
+			<attackmess>Attacked The Enemy With: Sword Of Night And Flame</attackmess>
+			<stamina>24</stamina>
+		</weapon>
+	</item>
+	<item>
+		<armor>
+			<name>Sauron's Defender</name>
+			<desc>Sauron's Defender Description!</desc>
+			<star>13</star>
+			<durability>1080</durability>
+			<absorption>65</absorption>
+			<breakmess>Sauron's Defender Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<armor>
+			<name>Negative Suit</name>
+			<desc>Negative Suit Description!</desc>
+			<star>-1</star>
+			<durability>1250</durability>
+			<absorption>70</absorption>
+			<breakmess>Negative Suit Broke!</breakmess>
+		</armor>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 7</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>13</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 7</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>13</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Health Potion 8</name>
+			<desc>Increases Your Health Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Health Points</actmess>
+			<actar>0</actar>
+			<effect>11,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<item>
+		<consume>
+			<name>Large Stamina Potion 8</name>
+			<desc>Increases Your Stamina Significantly</desc>
+			<star>-1</star>
+			<actmess>You Gained +100 Stamina Points</actmess>
+			<actar>0</actar>
+			<effect>13,100</effect>
+			<quantity>5</quantity>
+		</consume>
+	</item>
+	<enemy>
+		<name>Divine God Elden Beast</name>
+		<desc>Divine God Elden Beast Description!</desc>
+		<star>13</star>
+		<health>10000</health>
+		<resistance>50,50,50,50</resistance>
+		<attack>250</attack>
+		<attackmess>Divine God Elden Beast Attacked You!</attackmess>
+		<deathmess>Divine God Elden Beast Died!</deathmess>
+		<drop>The Ohio Ring</drop>
+	</enemy>
+	<enemy>
+		<name>Ancient Fire Dragon</name>
+		<desc>Ancient Fire Dragon Description!</desc>
+		<star>13</star>
+		<health>2140</health>
+		<resistance>25,25,25,100</resistance>
+		<attack>125</attack>
+		<attackmess>Ancient Fire Dragon Attacked You!</attackmess>
+		<deathmess>Ancient Fire Dragon Died!</deathmess>
+		<drop>Sword Of Night And Flame</drop>
+	</enemy>
+	<enemy>
+		<name>Ancient Frost Dragon</name>
+		<desc>Ancient Frost Dragon Description!</desc>
+		<star>13</star>
+		<health>2140</health>
+		<resistance>25,25,100,25</resistance>
+		<attack>125</attack>
+		<attackmess>Ancient Frost Dragon Attacked You!</attackmess>
+		<deathmess>Ancient Frost Dragon Died!</deathmess>
+		<drop>Negative Suit</drop>
+	</enemy>
+	<enemy>
+		<name>Ancient Blood Dragon</name>
+		<desc>Ancient Blood Dragon Description!</desc>
+		<star>13</star>
+		<health>2140</health>
+		<resistance>100,25,25,25</resistance>
+		<attack>125</attack>
+		<attackmess>Ancient Blood Dragon Attacked You!</attackmess>
+		<deathmess>Ancient Blood Dragon Died!</deathmess>
+		<drop>Large Health Potion 8</drop>
+		<drop>Large Stamina Potion 8</drop>
+	</enemy>
+	% --------------------------------------------------
+	% Area 1: Limgrave
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [LIMGRAVE]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 2: Ocean [INSTA-DEATH AREA]
+	% --------------------------------------------------
+	<area>
+		<desc>There is no such thing as swimming in this game... [YOU DIED!]</desc>
+		<feats>1,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 3: Weeping Peninsula
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [WEEPING PENINSULA]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 4: Caelid Ohio
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [CAELID OHIO]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 5: Stormveil Castle
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [STORMVIEL CASTLE]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 6: Liurnia Of The Lakes
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [LIURNIA OF THE LAKES]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 7: Raya Lucaria Academy
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [RAYA LUCARIA ACADEMY]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 8: Mount Gelmir
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [MOUNT GELMIR]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 9: Atlus Plateau
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [ATLUS PLATEAU]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 10: Mountain Tops Of The Giants
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [MOUNTAIN TOPS OF THE GIANTS]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 11: The Haligtree
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [THE HALIGTREE]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 12: Leyndell Royal Capital
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [LEYNDELL ROYAL CAPITAL]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 13: The Holy Divine Erd Tree
+	% --------------------------------------------------
+	<area>
+		<desc>Area: You Are Currently In [THE HOLY DIVINE ERD TREE]...</desc>
+		<feats>0,0</feats>
+	</area>
+	% --------------------------------------------------
+	% Area 14: The Royal Throne Of The Holy Divine Erd Tree [WIN AREA]
+	% --------------------------------------------------
+	<area>
+		<desc>The Fallen Leaves Tell A Story... Of How A Tarnished Became Ohio Lord... In Our Home, Across Ohio, The Lands Canteen. Our Seed Will Look Back Upon Us, And Recall... The Age Of Order!... [OHIO RING]</desc>
+		<feats>0,1</feats>
+	</area>
+	% --------------------------------------------------
+	% Key Found In Area 1 That Must Be Used In Area 1 That Unlocks Area 2, 3 & 4
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Tree Sentinel's Great Rune</name>
+			<desc>Unlocks Areas Surrounding [LIMGRAVE] Must Be Used In [LIMGRAVE]</desc>
+			<star>-1</star>
+			<actmess>You Mend Tree Sentinel's Great Rune & Unlocked The Areas Surrounding [LIMGRAVE]</actmess>
+			<actar>1</actar>
+			<rule>1,u,5</rule>
+			<rule>1,l,2</rule>
+			<rule>1,d,3</rule>
+			<rule>1,r,4</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key: Key Found In Area 5 That Must Be Used In Area 5 That Unlocks Area 6
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Godrick's Great Rune</name>
+			<desc>Unlocks Area Left Of [STORMVIEL CASTLE] Must Be Used In [STORMVIEL CASTLE]</desc>
+			<star>-1</star>
+			<actmess>You Mend Godrick's Great Rune & Unlocked The Area Left Of [STORMVIEL CASTLE]</actmess>
+			<actar>5</actar>
+			<rule>5,l,6</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 7 That Must Be Used In Area 7 That Unlocks Area 8 & 9
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Rennala's Great Rune</name>
+			<desc>Unlocks Areas Left & Right Of [RAYA LUCARIA ACADEMY] Must Be Used In [RAYA LUCARIA ACADEMY]</desc>
+			<star>-1</star>
+			<actmess>You Mend Rennala's Great Rune & Unlocked The Areas Left & Right Of [RAYA LUCARIA ACADEMY]</actmess>
+			<actar>7</actar>
+			<rule>7,l,8</rule>
+			<rule>7,r,9</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 9 That Must Be Used In Area 9 That Unlocks Area 10
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Morgott's Great Rune</name>
+			<desc>Unlocks Area Right Of [ATLUS PLATEAU] Must Be Used In [ATLUS PLATEAU]</desc>
+			<star>-1</star>
+			<actmess>You Mend Morgott's Great Rune & Unlocked The Area Right Of [ATLUS PLATEAU]</actmess>
+			<actar>9</actar>
+			<rule>9,r,10</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 8 That Must Be Used In Area 10 That Unlocks Area 11
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Rykard's Great Rune</name>
+			<desc>Unlocks Area Above Of [MOUNTAIN TOPS OF THE GIANTS] Must Be Used In [MOUNTAIN TOPS OF THE GIANTS]</desc>
+			<star>-1</star>
+			<actmess>You Mend Rykard's Great Rune & Unlocked The Area Above Of [MOUNTAIN TOPS OF THE GIANTS]</actmess>
+			<actar>10</actar>
+			<rule>10,u,11</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 10 That Must Be Used In Area 9 That Unlocks Area 12
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Fire Giant's Great Rune</name>
+			<desc>Unlocks Area Below Of [ATLUS PLATEAU] Must Be Used In [ATLUS PLATEAU]</desc>
+			<star>-1</star>
+			<actmess>You Mend Fire Giant's Great Rune & Unlocked The Area Below Of [ATLUS PLATEAU]</actmess>
+			<actar>9</actar>
+			<rule>9,d,12</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 12 That Must Be Used In Area 12 That Unlocks Area 13
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>Godfrey's Great Rune</name>
+			<desc>Unlocks Area Below Of [LEYNDELL ROYAL CAPITAL] Must Be Used In [LEYNDELL ROYAL CAPITAL]</desc>
+			<star>-1</star>
+			<actmess>You Mend Fire Godfrey's Great Rune & Unlocked The Area Below Of [LEYNDELL ROYAL CAPITAL]</actmess>
+			<actar>12</actar>
+			<rule>12,d,13</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Key Found In Area 13 That Must Be Used In Area 13 That Unlocks Area 14
+	% --------------------------------------------------
+	<item>
+		<use>
+			<name>The Ohio Ring</name>
+			<desc>Unlocks Area Below Of [THE HOLY DIVINE ERD TREE] Must Be Used In [THE HOLY DIVINE ERD TREE]</desc>
+			<star>-1</star>
+			<actmess>You Mend The Ohio Ring & Unlocked The Area Below Of [THE HOLY DIVINE ERD TREE]</actmess>
+			<actar>13</actar>
+			<rule>13,d,14</rule>
+		</use>
+	</item>
+	% --------------------------------------------------
+	% Area Links
+	% --------------------------------------------------
+	<links>
+		% --------------------------------------------------
+		% Area 1: Limgrave
+		% --------------------------------------------------
+		<linkset>1,1,1,1</linkset>
+		% --------------------------------------------------
+		% Area 2: Ocean
+		% --------------------------------------------------
+		<linkset>2,2,2,2</linkset>
+		% --------------------------------------------------
+		% Area 3: Weeping Peninsula
+		% --------------------------------------------------
+		<linkset>1,3,3,3</linkset>
+		% --------------------------------------------------
+		% Area 4: Caelid Ohio
+		% --------------------------------------------------
+		<linkset>4,4,1,4</linkset>
+		% --------------------------------------------------
+		% Area 5: Stormveil Castle
+		% --------------------------------------------------
+		<linkset>5,1,5,5</linkset>
+		% --------------------------------------------------
+		% Area 6: Liurnia Of The Lakes
+		% --------------------------------------------------
+		<linkset>7,6,6,5</linkset>
+		% --------------------------------------------------
+		% Area 7: Raya Lucaria Academy
+		% --------------------------------------------------
+		<linkset>7,6,7,7</linkset>
+		% --------------------------------------------------
+		% Area 8: Mount Gelmir
+		% --------------------------------------------------
+		<linkset>8,8,8,7</linkset>
+		% --------------------------------------------------
+		% Area 9: Atlus Plateau
+		% --------------------------------------------------
+		<linkset>9,9,7,9</linkset>
+		% --------------------------------------------------
+		% Area 10: Mountain Tops Of The Giants
+		% --------------------------------------------------
+		<linkset>10,10,9,10</linkset>
+		% --------------------------------------------------
+		% Area 11: The Haligtree
+		% --------------------------------------------------
+		<linkset>11,10,11,11</linkset>
+		% --------------------------------------------------
+		% Area 12: Leyndell Royal Capital
+		% --------------------------------------------------
+		<linkset>9,12,12,12</linkset>
+		% --------------------------------------------------
+		% Area 13: The Holy Divine Erd Tree
+		% --------------------------------------------------
+		<linkset>12,13,13,13</linkset>
+		% --------------------------------------------------
+		% Area 14: The Royal Throne Of The Holy Divine Erd Tree
+		% --------------------------------------------------
+		<linkset>14,14,14,14</linkset>
+	</links>
+</game>
